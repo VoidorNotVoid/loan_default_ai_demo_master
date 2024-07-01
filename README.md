@@ -1,16 +1,38 @@
-# loadn_deufalt_ai_demo
+# Loan Default AI Demo
 
-A new Flutter project.
+This project is a demonstration of an AI model to predict loan defaults.
+
+## Features
+
+- Predicts loan defaults based on historical data.
+- Primarily focuses on unconventional metrics as specified by the hackathon description
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-username/loan_default_ai_demo.git
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Navigate to the project directory**:
+    ```sh
+    cd loan_default_ai_demo
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Install the dependencies**:
+    ```sh
+    flutter pub get
+    ```
+
+4. **Run the application**:
+    ```sh
+    flutter run
+    ```
+
+## Project Structure
+
+- `lib/`: Contains the main source code for the Flutter application.
+- `test/`: Contains the test files.
+- `android/`, `ios/`, `web/`, `linux/`, `macos/`, `windows/`: Platform-specific code.
